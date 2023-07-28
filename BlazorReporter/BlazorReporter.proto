@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+package tutorial;
+
+message CreateLog {
+    string path = 1;
+    int32 x = 2;
+	int32 y = 3;
+}
